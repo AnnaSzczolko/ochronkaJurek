@@ -10,7 +10,8 @@ const router = createBrowserRouter([
 		path: '/',
 		element: <Root />,
 		children: [
-			{ index: '/TowarzystwoPrzywracaniaRodziny', element: <Towarzystwo></Towarzystwo> },
+			// { index: '/TowarzystwoPrzywracaniaRodziny', element: <Towarzystwo></Towarzystwo> },
+			{ index: true , element: <Towarzystwo></Towarzystwo> },
 			{ path: '/ochronkaJurek', element: <HomePage></HomePage> },
 			{ path: '/ośrodekProFamilia', element: <Familia></Familia> },
 		],

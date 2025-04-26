@@ -10,7 +10,7 @@ export default function Familia() {
 	return (
 		<>
 		<Hero title='Ośrodek Pro Familia w Poznaniu'>
-			<Navbar></Navbar>
+			<Navbar title='Towarzystwo Przywracania Rodziny'></Navbar>
 		</Hero>
 		<div className="wrapper">
 			<section id="familia" className="section section--margin">

@@ -31,7 +31,7 @@ export default function Towarzystwo() {
 		<>
 
 			<Hero title="Towarzystwo Przywracania Rodziny w Poznaniu">
-				<Navbar></Navbar>
+				<Navbar title='Towarzystwo Przywracania Rodziny'></Navbar>
 			</Hero>
 			<section  id="aboutTPR" className="section section--margin ">
 			<div className="wrapper">

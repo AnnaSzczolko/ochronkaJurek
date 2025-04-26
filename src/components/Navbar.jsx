@@ -7,7 +7,7 @@ import arrowIcon from '../img/arrow_icon.png'
 
 import img from '../img/favicon.jpg'
 
-export default function Navbar() {
+export default function Navbar({title}) {
 	const tprUl = useRef()
 	const JurekUl = useRef()
 	const NavbarRef = useRef()
@@ -70,7 +70,7 @@ export default function Navbar() {
 			<div className="header__content">
 				<div className="header__box">
 					<img className="header__icon" src={img} alt="icon" />
-					<h2 className="header__title">OCHRONKA JUREK</h2>
+					<h2 className="header__title">{title}</h2>
 				</div>
 				<nav ref={NavbarRef} className={`${'navbar'} ${isMenuOpen ? 'isMenu' : ' '}`}>
 					<ul className="navbar__ul">
