@@ -5,9 +5,10 @@ import burgerIcon from '../img/burger-menu.png'
 import closeIcon from '../img/close.png'
 import arrowIcon from '../img/arrow_icon.png'
 
-import img from '../img/favicon.jpg'
 
-export default function Navbar({title}) {
+export default function Navbar({title, logo}) {
+	console.log(logo)
+	console.log(title)
 	const tprUl = useRef()
 	const JurekUl = useRef()
 	const NavbarRef = useRef()
@@ -69,8 +70,8 @@ export default function Navbar({title}) {
 		<div className="wrapper">
 			<div className="header__content">
 				<div className="header__box">
-					<img className="header__icon" src={img} alt="icon" />
-					<h2 className="header__title">{title}</h2>
+					<img className="header__icon" src={logo} alt="icon" />
+					{/* <h2 className="header__title">{title}</h2> */}
 				</div>
 				<nav ref={NavbarRef} className={`${'navbar'} ${isMenuOpen ? 'isMenu' : ' '}`}>
 					<ul className="navbar__ul">
@@ -146,6 +147,7 @@ export default function Navbar({title}) {
 						</li>
 
 						<li className="navbar__li">
+						
 							<NavLink
 								onClick={menuToggle}
 								className={isActive => (isActive ? 'navbar__link active' : 'navbar__link')}

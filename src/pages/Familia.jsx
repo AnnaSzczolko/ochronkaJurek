@@ -4,13 +4,17 @@ import emailLogo from '../img/email.png'
 import phoneLogo from '../img/phone-call.png'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import logoTPR from '../img/logoTPR.jpeg'
 
 
 export default function Familia() {
+
 	return (
 		<>
 		<Hero title='Ośrodek Pro Familia w Poznaniu'>
-			<Navbar title='Towarzystwo Przywracania Rodziny'></Navbar>
+			<Navbar title='Towarzystwo Przywracania Rodziny' 
+			logo={logoTPR}
+			></Navbar>
 		</Hero>
 		<div className="wrapper">
 			<section id="familia" className="section section--margin">

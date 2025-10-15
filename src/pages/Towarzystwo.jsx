@@ -8,11 +8,20 @@ import emailLogo from '../img/email.png'
 import phoneLogo from '../img/phone-call.png'
 import handsOnTree from '../img/handsOnTree.jpg'
 
+import logoTPR from '../img/logoTPR.jpeg'
+
+
 import sprawozdanie2020 from '../pdf/sprawozdanie2020.pdf'
 import sprawozdanie2021 from '../pdf/sprawozdanie2021.pdf'
 import sprawozdanie2022 from '../pdf/sprawozdanie2022.pdf'
+import rzis2022 from '../pdf/rzis2022.pdf'
+import bilans2022 from '../pdf/bilans2022.pdf'
 import sprawozdanie2023 from '../pdf/sprawozdanie2023.pdf'
+import sprawozdanie2024 from '../pdf/sprawozdanie2024.pdf'
+import sprawozdanie2024dod from '../pdf/sprawozdanie2024dod.pdf'
 import polityka from '../pdf/POLITYKA BEZPIECZENSTWA INFORMACJI.pdf'
+import procedura from '../pdf/Procedura.pdf'
+import PolitykaPrywatnosci from '../pdf/PolitykaPrywatnosci.pdf'
 import Navbar from '../components/Navbar'
 
 export default function Towarzystwo() {
@@ -31,7 +40,7 @@ export default function Towarzystwo() {
 		<>
 
 			<Hero title="Towarzystwo Przywracania Rodziny w Poznaniu">
-				<Navbar title='Towarzystwo Przywracania Rodziny'></Navbar>
+				<Navbar title='Towarzystwo Przywracania Rodziny' logo={logoTPR}></Navbar>
 			</Hero>
 			<section  id="aboutTPR" className="section section--margin ">
 			<div className="wrapper">
@@ -240,13 +249,24 @@ export default function Towarzystwo() {
 						</p>
 					</div>
 					<div className="links__box">
-						<p className="section__title section__title--links">Polityka Bezpieczeństwa Informacji</p>
+						<p className="section__title section__title--links">Dokumenty</p>
 						<p>
 							<a target="_blank" href={polityka}>
 								Polityka Bezpieczeństwa Informacji
 							</a>
 						</p>
+						<p>
+							<a target="_blank" href={PolitykaPrywatnosci}>
+								Polityka Prywatności
+							</a>
+						</p>
+						<p>
+							<a target="_blank" href={procedura}>
+								Procedura przyjmowania zgłoszeń naruszeń prawa
+							</a>
+						</p>
 					</div>
+					
 					<div className="links__box">
 						<p className="section__title section__title--links">Sprawozdania</p>
 						<p className="section__text">
@@ -269,8 +289,28 @@ export default function Towarzystwo() {
 							</a>
 						</p>
 						<p>
+							<a href={rzis2022} target="_blank">
+								Rachunek zysków i strat rok 2022
+							</a>
+						</p>
+						<p>
+							<a href={bilans2022} target="_blank">
+								Bilans rok 2022
+							</a>
+						</p>
+						<p>
 							<a href={sprawozdanie2023} target="_blank">
 								Sprawozdanie finansowe za rok 2023
+							</a>
+						</p>
+						<p>
+							<a href={sprawozdanie2024} target="_blank">
+								Sprawozdanie finansowe za rok 2024
+							</a>
+						</p>
+						<p>
+							<a href={sprawozdanie2024dod} target="_blank">
+								Sprawozdanie finansowe za rok 2024 - informacje dodatkowe
 							</a>
 						</p>
 					</div>

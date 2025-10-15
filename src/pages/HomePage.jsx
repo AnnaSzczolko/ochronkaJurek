@@ -7,6 +7,8 @@ import Hero from '../components/Hero'
 
 import aboutOne from '../img/aboutImg-sm.jpg'
 import aboutTwo from '../img/aboutImg2-sm.jpg'
+import logoJUREK from '../img/logoJUREK.jpeg'
+
 
 import dostepnosc from '../pdf/dostepnosc.pdf'
 import standardy from '../pdf/standardy.pdf'
@@ -17,6 +19,7 @@ import phoneLogo from '../img/phone-call.png'
 import noteLogo from '../img/notes.png'
 
 import facebookLogo from '../img/facebook.png'
+import Photos from '../components/Photos'
 
 export default function HomePage() {
 	const { hash } = useLocation()
@@ -33,7 +36,7 @@ export default function HomePage() {
 	return (
 		<>
 			<Hero title="Ochronka Jurek w Poznaniu">
-				<Navbar title="OCHRONKA JUREK"></Navbar>
+				<Navbar title="OCHRONKA JUREK" logo={logoJUREK}></Navbar>
 			</Hero>
 			<section id="aboutJUREK" className="section section--margin about">
 				<div className="wrapper">
@@ -81,6 +84,15 @@ export default function HomePage() {
 							<p className="quote__author">Janusz Korczak</p>
 						</div>
 					</div>
+				</div>
+			</section>
+			<section className='section photos'>
+				<div className="section--margin">
+
+				<div className="wrapper">
+					<h2 className="section__title">Zdjęcia domu</h2>
+				<Photos></Photos>
+				</div>
 				</div>
 			</section>
 
