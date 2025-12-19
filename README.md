@@ -13,7 +13,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Frontend-React%20(Vite)-blue" />
   <img src="https://img.shields.io/badge/Status-Completed-success" />
-  <img src="https://img.shields.io/badge/Project-Type-Commercial-Important" />
 </p>
 
 ---
