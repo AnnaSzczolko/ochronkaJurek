@@ -79,14 +79,18 @@ cd ochronkaJurek
 npm install
 ```
 
-###3️⃣ Run the development server
-npm run dev
+### 3️⃣ Run frontend
 
-The website runs on:
+```bash
+npm run dev
+```
+
+Frontend runs on:
 
 ```
 http://localhost:5173
 ```
+
 ---
 
 
