@@ -53,6 +53,7 @@ The project uses **React** for the frontend, with **React Router** to manage nav
 
 ## 📂 Project Structure
 
+```
 ochronkaJurek/
 ├── src/ # React components, pages, and assets
 ├── index.html # Main entry point
@@ -60,6 +61,9 @@ ochronkaJurek/
 ├── vite.config.js # Vite configuration
 ├── .gitignore
 └── README.md
+```
+
+---
 
 ## ▶️ How to run the project locally
 
@@ -68,29 +72,50 @@ ochronkaJurek/
 ```bash
 git clone https://github.com/AnnaSzczolko/ochronkaJurek.git
 cd ochronkaJurek
+```
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
+```
 npm install
+```
 
-3️⃣ Run the development server
+###3️⃣ Run the development server
 npm run dev
 
-The website will run locally at:
+The website runs on:
+
+```
 http://localhost:5173
+```
+---
 
-🚀 Features
 
-Full React frontend with modular components
-Client-side routing with React Router
-Responsive layout for desktop and mobile
-Clean and maintainable SCSS styling
-Commercial project implemented according to client requirements
 
-📈 What I learned
+## 🚀 Features
 
-Building a React project with modern tools (Vite, React Router)
-Structuring a multi-page React application
-Implementing client-side routing and smooth navigation
-Delivering a commercial project fulfilling specific client expectations
-Deploying a website to a live server using FileZilla
+* Full React frontend with modular components
+* Client-side routing with React Router
+* Responsive layout for desktop and mobile
+* Clean and maintainable SCSS styling
+* Commercial project implemented according to client requirements
 
+---
+
+## 📈 What I learned
+
+* Building a React project with modern tools (Vite, React Router)
+* Structuring a multi-page React application
+* Implementing client-side routing and smooth navigation
+* Delivering a commercial project fulfilling specific client expectations
+* Deploying a website to a live server using FileZilla
+
+---
+
+
+## 👩‍💻 About Me
+
+**Anna Szczołko**
+Aspiring Junior Frontend / Fullstack Developer
+📍 Poznań, Poland
+
+🔗 GitHub: [https://github.com/AnnaSzczolko](https://github.com/AnnaSzczolko)
