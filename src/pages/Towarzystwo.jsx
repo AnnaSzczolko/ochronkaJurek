@@ -19,6 +19,8 @@ import bilans2022 from '../pdf/bilans2022.pdf'
 import sprawozdanie2023 from '../pdf/sprawozdanie2023.pdf'
 import sprawozdanie2024 from '../pdf/sprawozdanie2024.pdf'
 import sprawozdanie2024dod from '../pdf/sprawozdanie2024dod.pdf'
+import sprawozdanie2025 from '../pdf/sprawozdanie2025.pdf'
+import sprawozdanie2025dod from '../pdf/sprawozdanie2025dod.pdf'
 import polityka from '../pdf/POLITYKA BEZPIECZENSTWA INFORMACJI.pdf'
 import procedura from '../pdf/Procedura.pdf'
 import PolitykaPrywatnosci from '../pdf/PolitykaPrywatnosci.pdf'
@@ -311,6 +313,16 @@ export default function Towarzystwo() {
 						<p>
 							<a href={sprawozdanie2024dod} target="_blank">
 								Sprawozdanie finansowe za rok 2024 - informacje dodatkowe
+							</a>
+						</p>
+						<p>
+							<a href={sprawozdanie2025} target="_blank">
+								Sprawozdanie finansowe za rok 2025
+							</a>
+						</p>
+						<p>
+							<a href={sprawozdanie2025dod} target="_blank">
+								Sprawozdanie finansowe za rok 2025 - informacje dodatkowe
 							</a>
 						</p>
 					</div>
